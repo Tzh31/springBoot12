@@ -13,6 +13,7 @@ public class ThymeleafApplication {
 
         System.out.println("ceshi55");
         System.out.println("master");
+        System.out.println("ceshi55");
 
     }
 
