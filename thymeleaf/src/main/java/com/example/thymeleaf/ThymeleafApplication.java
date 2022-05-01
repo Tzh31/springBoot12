@@ -10,7 +10,7 @@ public class ThymeleafApplication {
         SpringApplication.run(ThymeleafApplication.class, args);
         System.out.println("heiii");
         System.out.println(22);
-        System.out.println("ceshi");
+
 
     }
 
