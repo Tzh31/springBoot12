@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hello.html</title>
+</head>
+<body>
+<h3>使用模板</h3>
+<p th:text="${data}">显示数据哦</p>
+<form th:action="@{/getUser}" th:type="${method}">
+    <input th:type="text" th:name="${data}" th:value="${data}">
+    <input type="button" id="btn" th:onclick="btnClick()" th:value="hjkh">
+</form>
+</body>
+<script type="text/javascript">
+    function btnClick() {
+        alert("单机")
+    }
+</script>
+</html>

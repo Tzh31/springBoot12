@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:text="|我的年龄是${user.age}|"></p>
+<div th:object="${user}">
+    <p th:text="*{age}"></p>
+    <p th:text="*{name}"></p>
+</div>
+<div th:inline="text">
+    我是[[${user.age}]]
+</div>
+<div th:each="user,userItem:${users}">
+<p th:text="${user.name}"></p>
+<p th:text="${user.age}"></p>
+
+</div>
+
+</body>
+</html>
