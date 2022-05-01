@@ -1,0 +1,9 @@
+server:
+  port: 9002
+  servlet:
+    context-path: /myonline
+
+    tiger:
+     name: 东北老虎
+     age: 2
+    site: www.beijing.com
