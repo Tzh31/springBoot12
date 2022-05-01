@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ThymeleafApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(ThymeleafApplication.class, args);
         System.out.println("heiii");
         System.out.println(22);
@@ -14,6 +15,7 @@ public class ThymeleafApplication {
         System.out.println("ceshi55");
         System.out.println("master");
         System.out.println("ceshi55");
+
 
     }
 
