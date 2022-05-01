@@ -8,6 +8,7 @@ class ThymeleafApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("嘿嘿");
     }
 
 }
